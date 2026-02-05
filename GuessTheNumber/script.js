@@ -25,6 +25,12 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.message').textContent = 'No Number!';
   } else if (guess === secretNumber) {
     document.querySelector('.message').textContent = 'Correct Number!';
+
+    document.querySelector('body').style.backgroundColor = '#60b347';
+
+    document.querySelector('.number').style.width = '30rem';
+
+    //when guess is too high
   } else if (guess > secretNumber) {
     if (score > 1) {
       document.querySelector('.message').textContent = 'Too high!';
@@ -34,6 +40,8 @@ document.querySelector('.check').addEventListener('click', function () {
       document.querySelector('.message').textContent = 'You lost the game!';
       document.querySelector('.score').textContent = 0;
     }
+
+    //when guess is too low
   } else if (guess < secretNumber) {
     if (score > 1) {
       document.querySelector('.message').textContent = 'Too low!';
