@@ -179,3 +179,36 @@ Issues and PRs are welcome! If you’d like to contribute, consider adding tests
 ## 🙌 Acknowledgments
 
 Built with ❤️ using classic backtracking. Perfect for learning recursion and constraint checking.
+
+---
+
+
+# 🎯 Guess The Number Game (Python)
+
+A simple interactive command-line game where the player tries to guess a randomly generated number within a given range.
+
+---
+
+## ✨ Features
+
+- 🎲 Random number generation  
+- 🔢 User input handling  
+- 📉 Feedback for guesses (**Too High / Too Low**)  
+- 🧮 Counts number of attempts  
+- 🖥️ Runs in terminal — no dependencies  
+
+---
+
+## 🧠 How it works
+
+1. The program generates a random number within a predefined range (e.g., 1–100).  
+2. The user inputs guesses.  
+3. The program gives hints:  
+   - **Too high**  
+   - **Too low**  
+4. The game ends when the correct number is guessed.  
+5. The total number of attempts is displayed.
+
+---
+
+
